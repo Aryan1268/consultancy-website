@@ -1,0 +1,275 @@
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+}
+
+.hero-sec{
+    background-image: url("./img\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    /* object-fit: contain; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-hdg{
+    font-size: 9em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero-small-hdg{
+    font-size: 3em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.secound-sec{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.secound-left-sec img{
+    width: 400px;
+    height: 400px;
+    
+}
+
+.secound-right-sec span{
+    color: white;
+    font-size: 4em;
+    
+}
+
+.secound-right-sec p{
+   font-size: 1.5em;
+   color: white;
+}
+
+.third-sec{
+    background-color: #ccc;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.third-hdg{
+    font-size: 4em;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.third-lower-sec{
+    display: flex;
+    justify-content: space-around;
+}
+
+.third-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-content img{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.third-content span{
+    font-size: 2em;
+    text-align: center;
+}
+
+.third-content p{
+    text-align: center;
+    font-size: 1em;
+    /* font-weight: bold; */
+}
+
+.third-content button{
+    width: 200px;
+    height: 40px;
+    background-color: #ccc;
+    text-transform: uppercase;
+}
+
+.fourth-sec{
+    height: 100%;
+    background-color: rgb(3, 3, 20);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fourth-left-sec{
+    font-size: 6em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-right-sec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fourth-content span{
+    font-size: 2em;
+    color: white;
+    text-decoration: underline;
+}
+
+.fourth-content p{
+    color: white;
+}
+
+.fifth-sec{
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+.fifth-hdg{
+    font-size: 5em;
+    text-align: center;
+}
+
+.fifth-img{
+    display: flex;
+    justify-content:center ;
+}
+
+.fifth-img img{
+    width: 450px;
+    height: 400px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+
+.fifth-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fifth-main-ctn span{
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+/* .fifth-main-ctn p{
+    font-size: 1.5em;
+} */
+
+@media screen and (max-width:768px){
+.hero-sec {
+    /* background-size: cover; */
+}
+
+.hero-hdg{
+    font-size: 2.5em;
+}
+
+.hero-small-hdg{
+    font-size: 1.8em;
+}
+
+.secound-sec{
+    flex-direction: column;
+}
+
+.secound-left-sec img{
+    width: 200px;
+    height: 200px;
+}
+
+.secound-right-sec span{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.third-lower-sec {
+        flex-direction: column;
+    }
+
+.third-hdg{
+    font-size: 1.5em;
+}
+
+.third-content img{
+    width: 80px;
+    height: 80px;
+}
+
+.third-content span{
+    font-size: 1em;
+}
+
+.third-content p{
+    font-size: .5em;
+}
+
+.third-content button{
+    height:25px;
+    
+}
+
+.fourth-left-sec{
+    font-size: 3em;
+}
+
+.fifth-hdg{
+    font-size: 3em;
+}
+
+.fifth-content{
+    flex-direction: column;
+}
+
+.fifth-img img{
+    width: 200px;
+    height: 200px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .third-lower-sec{
+        flex-direction: column;
+    }
+
+    .third-hdg{
+        font-size: 2em;
+    }
+
+    .third-content img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .third-content span{
+        font-size: 1.5em;
+    }
+
+.third-content button{
+    height: 20px;
+}
+}
